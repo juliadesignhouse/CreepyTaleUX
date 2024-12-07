@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creepy Tale Porting Design</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+    <img src="pictures/start.png" alt="Floating Banner" class="floating-image">
+    <div class="content">
+        <h1>Welcome to Creepy Tale on iPhone!</h1>
+        <p>This guide takes you through the design rationale, focusing on the new UI elements crafted for various game systems adapted from the original PC version. You’ll also get a chance to explore the design and interact with the prototype. Enjoy the journey!</p>
+        <h1>Gesture & Area in Screen</h1>
+        <p>The non-user research highlights that using the number of fingers is crucial to deciding on the gaming experience in a mobile game.</p>
+        <p>Using one or two fingers on each hand is ideal for effective accessibility and engagement when playing a mobile game. While single-finger gestures are recommended for ease of execution.</p>
+        <img src="pictures/1.png" alt="The Gamer Stance">
+        <p>For the iPhone version of Creepy Tale, this translates to using one-finger mechanics for every system and interaction with the game, optimizing simplicity and reducing player frustration.</p>
+        <p>The gamer stance is a control style where players hold the device with both hands and use their thumbs for input, providing intuitive and precise control for actions and traversal.</p>
+        <img src="pictures/2.png" alt="Accessibility Zones">
+        <h2>Control Design</h2>
+        <p>The control design will mainly focus on the traversal system, inventory system, map, and different interactive actions:</p>
+        <h3>Left Thumb Control:</h3>
+        <p>Traversal System:</p>
+        <p>Movement: A control scheme is positioned on the left bottom of the screen, aligning with gaming controllers. This control allows characters to move left and right.</p>
+        <p>Jump: The jump button is placed at the top of the movement but still within the easy accessible zone.</p>
+        <img src="pictures/3.png" alt="Left Thumb Control">
+        <img src="pictures/4.png" alt="Jump Button">
+        <h3>Right Thumb Control:</h3>
+        <p>Inventory: An inventory placed at the bottom right, with a collapsible menu that players can expand when tapping on the inventory.</p>
+        <p>Map: Specifically designed for the mobile version, the map allows players to toggle between a single-room view and a multi-room view, enabling seamless switching between a compact and expanded layout.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=31-281&node-type=frame&viewport=-4373%2C-44%2C0.53&t=vk5r326jrBOATjbk-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=31%3A281&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        
+        <img src="pictures/5.png" alt="Inventory">
+        <img src="pictures/6.png" alt="Map">
+        <h3>Actions:</h3>
+        <p>Five gestures are primarily used in 1TG games: drag, hold, slide, swipe, and tap.</p>
+        <ul>These gestures are linked to two types of actions:
+        <li>Controlled Actions: Require continuous interaction (e.g., dragging to draw or holding to steer).</li>
+        <li>Initiated Actions: Triggered by a single input and execute automatically or instantly (e.g., tapping to attack or swiping to move).</li>
+        </ul>
+        <p>Tap: Use: Interacting with objects or performing actions. For instance:</p>
+        <p>Tapping to pick up an item.</p>
+        <p>Tapping on a door to open or close it.</p>
+        <p>Tapping to activate a hidden mechanism, there will be an icon to remind the user to intuitively guide the user tap on it.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=32-148&node-type=frame&viewport=-1075%2C445%2C0.27&t=ySXO2ukjwJ0Gu0Rs-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A406&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/7.png" alt="Tap for Interaction">
+        <img src="pictures/8.png" alt="Interactive Tap">
+        <p>The gear icon refers to open for more details, take the player to enter a new window which they can always close, and play around with the gaming elements.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=34-406&node-type=frame&viewport=-461%2C98%2C0.19&t=UrpyL2cAKqZ8FgPB-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A406&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/9.png" alt="Gear Icon">
+        <img src="pictures/10.png" alt="New Window">
+        <img src="pictures/11.png" alt="Gameplay Element">
+        <p>Players can hide from the enemy if there is an object with an eye on the top; tap the eye to hide, and no one will be able to see.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=34-509&node-type=frame&viewport=-461%2C98%2C0.19&t=UrpyL2cAKqZ8FgPB-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A509&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/12.png" alt="Hide Icon">
+        <img src="pictures/13.png" alt="Hidden Player">
+        <p>Slide: Use: Triggering directional movement or dodging obstacles. For example, sliding left or right to move the item or mechanics in front of the character.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=31-455&node-type=frame&viewport=-461%2C98%2C0.19&t=UrpyL2cAKqZ8FgPB-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=31%3A455&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/14.png" alt="Sliding Mechanism">
+        <img src="pictures/15.png" alt="Sliding Puzzle">
+        <p>Double Tap: Use: double click on the item in inventory to use the item. Double clicking the bell in the inventory to use it as a trap for the enemy.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=35-405&node-type=frame&viewport=-755%2C-1273%2C0.33&t=yRnkXzeQ5invGp0I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=35%3A369&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/16.png" alt="Double Tap 1">
+        <img src="pictures/17.png" alt="Double Tap 2">
+        <img src="pictures/18.png" alt="Double Tap 3">
+        <p>Tap and Drag: Use: Triggering unique or context-sensitive actions, double click on the item in inventory to use the item.</p>
+        <p>Tap and drag the chair to move is how player interact with environment when they need to move something around. The intuitive icon was designed to help player understand.</p>
+        <div class="prototype-box d-flex justify-content-center">
+            <a class="btn btn-primary text-uppercase w-100" href="https://www.figma.com/proto/f1quc2YtdLARit88kdTLHG/Untitled?page-id=0%3A1&node-id=36-376&node-type=frame&viewport=-1065%2C-1856%2C0.36&t=6HyuwZGqWQSPbn0E-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=36%3A376&show-proto-sidebar=1">
+                View Prototype
+            </a>
+        </div>
+        <img src="pictures/19.png" alt="Hold and Drag 1">
+        <img src="pictures/20.png" alt="Hold and Drag 2">
+        <h2>Conclusion</h2>
+        <p>The design adaptations for Creepy Tale on iPhone seamlessly blend intuitive controls, responsive UI elements, and accessibility considerations for smaller screens, ensuring an enjoyable gaming experience for all players!</p>
+    </div>
+</body>
+</html>
