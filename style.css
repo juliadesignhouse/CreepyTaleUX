@@ -78,3 +78,33 @@ h3{
 .prototype-box .btn:hover {
     background-color: #FFEBBA; /* Darker blue for hover effect */
 }
+
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 90%; /* Increases content width to fit smaller screens */
+        padding: 15px; /* Reduces padding for compactness */
+    }
+
+    p {
+        font-size: 18px; /* Adjust font size for better readability on mobile */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .prototype-box .btn {
+        width: 100%; /* Makes the button full-width on mobile */
+        padding: 10px; /* Adds sufficient touch target size */
+    }
+}
